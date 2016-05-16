@@ -1,0 +1,90 @@
+/*! PocketGrid 1.1.0
+* Copyright 2013 Arnaud Leray
+* MIT License
+*/.block-group,.block,.block-group:after,.block:after,.block-group:before,.block:before{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+.block-group{*zoom:1}
+.block-group:before,.block-group:after{display:table;content:"";line-height:0}
+.block-group:after{clear:both}
+.block-group{list-style-type:none;padding:0;margin:0}
+.block-group>.block-group{clear:none;float:left;margin:0 !important}
+.block{float:left;width:100%}
+
+/* background pattern */
+body {
+  background-color: #026873;
+  font-family: Quicksand;
+  font-weight: light;
+}
+
+.stripey {
+  background-image: linear-gradient(90deg, rgba(255,255,255,.07) 50%, transparent 50%),
+  linear-gradient(90deg, rgba(255,255,255,.13) 50%, transparent 50%),
+  linear-gradient(90deg, transparent 50%, rgba(255,255,255,.17) 50%),
+  linear-gradient(90deg, transparent 50%, rgba(255,255,255,.19) 50%);
+  background-size: 13px, 29px, 37px, 53px;
+}
+
+body {
+}
+
+h1, h2 {
+  text-align: center;
+  width: 100%;
+  margin-bottom: 0;
+  font-family: Quicksand;
+  color: antiquewhite;
+}
+
+h1 { color: }
+
+.ampersand { font-family: Playfair Display; }
+
+.main-photo {
+  border-radius: 50%;
+  width: 40%;
+  margin: 3em 30%;
+}
+
+.e {
+  width: 60%;
+  margin-left: 20%;
+  padding: 1.5em;
+  text-align: justify;
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+
+.w { background: antiquewhite; }
+
+label { display: block; }
+
+footer {
+  margin: 2em 0 0 0;
+  padding: 1.2em 0 1.5em 0;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+}
+
+.left {
+  background-image: linear-gradient(to right, rgba(250, 235, 215, 0), rgba(250, 235, 215, 0.6), rgba(250, 235, 215, 0.75));
+  margin-left: 5%;
+}
+
+.right {
+  background-image: linear-gradient(to left, rgba(250, 235, 215, 0), rgba(250, 235, 215, 0.6), rgba(250, 235, 215, 0.75));
+  margin-right: 5%;
+}
+
+.left, .right {
+  width: 42.5%;
+}
+
+.fancy {
+  width: 5%;
+  color: antiquewhite;
+  text-align: center;
+  margin: auto;
+}
